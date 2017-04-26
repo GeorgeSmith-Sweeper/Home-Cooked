@@ -16,7 +16,6 @@ function clickHandler() {
       $("a").wrap("<li>");
     }
   });
-
 }
 
 $("#searchBtn").on("click", clickHandler);
