@@ -1,7 +1,6 @@
-body { 
-/*  background: url('fishLarge.jpg') no-repeat center center fixed; */ 
-  background: url('cookingtable.jpg') no-repeat center center fixed; 
- -webkit-background-size: cover;
+body {
+  background: url('cookingtable.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -14,47 +13,41 @@ body {
 #jumboBox {
 	margin-top: 10%;
 }
+
 #foodList a{
 	color: #FFFFFF;
-	font-size: 1.8em;
+  font-size: 1.8em;
 	text-decoration: none;
 	margin-left: 28px;
 	animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s;  Safari and Chrome 
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s;  Safari and Chrome
 }
 
 @-moz-keyframes fadein { /* Firefox */
-    from {
-        opacity:0;
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
 }
-    to {
-        opacity:1;
-}
-}
+
 @-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-}
-    to {
-        opacity:1;
-}
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
 }
 
 #foodList a:hover {
-	text-decoration: underline;	
-	/*color: #e65b00;*/
-	/*font-weight: bold;*/
+	text-decoration: underline;
 }
-
-/*#foodList a:visited {
-	color: maroon;
-}	*/
-
 
 #foodList li{
 	list-style: none;
 	margin-top: 15px;
-/*	text-align: center;
-*/}
+}
 
